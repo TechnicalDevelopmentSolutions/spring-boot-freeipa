@@ -1,0 +1,15 @@
+
+
+    ${application.title}
+    ${application.name} v${application.version}.${application.buildNumber} ${application.buildDateTime}
+
+    Created By: ${application.createdBy}
+
+    Environment: ${application.environment}
+
+    FreeIPA URL: ${freeipa.base.url}
+
+    MySQL...
+    URL: ${spring.datasource.url}
+    Username: ${spring.datasource.username}
+

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Context docBase=".../spring-boot-seed/spring-boot-seed-client/target/ROOT">
+    <Resources className="org.apache.catalina.webresources.StandardRoot">
+
+        <PostResources className="org.apache.catalina.webresources.DirResourceSet"
+                       webAppMount="/WEB-INF"
+                       base=".../spring-boot-seed/spring-boot-seed-client/target/ROOT/WEB-INF"/>
+        <PostResources className="org.apache.catalina.webresources.DirResourceSet"
+                       webAppMount="/WEB-INF/classes"
+                       base=".../spring-boot-seed/spring-boot-seed-client/target/ROOT/WEB-INF/classes"/>
+        <PostResources className="org.apache.catalina.webresources.DirResourceSet"
+                       webAppMount="/WEB-INF/lib"
+                       base=".../spring-boot-seed/spring-boot-seed-client/target/ROOT/WEB-INF/lib"/>
+    </Resources>
+</Context>

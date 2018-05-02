@@ -1,0 +1,15 @@
+# General
+application.name: @project.name@
+application.createdBy: 'Technical Development Solutions LLC'
+application.title: Spring Boot & FreeIPA
+application.version: @project.version@
+application.buildNumber: "@buildNumber@"
+application.buildDateTime: @timestamp@
+
+# Database
+spring.datasource.url: jdbc:mysql://CHANGE_URL:3306/CHANGE_DB
+spring.datasource.username: CHANGE_USERNAME
+spring.datasource.password: CHANGE_PASSWORD
+spring.datasource.driver-class-name: com.mysql.jdbc.Driver
+
+freeipa.base.url: https://ipa.demo1.freeipa.org
